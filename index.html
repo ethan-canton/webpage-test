@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>ethan</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    h1 {
+        color: whitesmoke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 50%;
+        padding: 1%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.5); 
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        letter-spacing: 3px;
+    }
+    h2 {
+        color: whitesmoke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 50%;
+        padding: 1%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.5); 
+        border-radius: 1px;   
+        text-justify: auto;
+        
+    }
+    h3 {
+        color: whitesmoke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 50%;
+        padding: 1%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.5); 
+        border-radius: 1px;
+        text-justify: auto;
+    }
+    h4 {
+        color: whitesmoke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 50%;
+        padding: 1%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.5); 
+        border-radius: 1px;
+        text-justify: auto;
+    }
+    h5 {
+        color: whitesmoke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 50%;
+        padding: 1%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.5); 
+        border-radius: 1px;
+        text-justify: auto;
+    }
+    h6 {
+        color: whitesmoke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 50%;
+        padding: 1%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.5); 
+        border-radius: 1px;
+        text-justify: auto;
+    }
+    p {
+        color: whitesmoke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 50%;
+        padding: 1%;
+        margin: auto;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5); 
+        border-radius: 1px;
+        text-justify: auto;
+    }
+    div {
+        background-color: gray;
+        border-radius: 5px;
+    }
+    header {
+        background-color: gray;
+        border-radius: 5px;
+    }
+    body {
+        background-color: black;
+        background-size: cover;
+        text-align:center
+    }
+    button {
+        
+    }
+
+    
+</style>
+
+</head>
+
+<body style="background-image: url('https://wallpaperaccess.com/full/191327.jpg');">
+    
+    
+    <h1 style="text-align:center">Ethans Webpage</h1>
+    <p>This is a webpage</p>
+    <h2 style="text-align:center">This is an h2 tag</h2>
+    <p>This website is just a demonstration and nothing special</p>
+    <h3 style="text-align:center">This is an h3 tag</h3>
+    <p>This website is just a demonstration and nothing special</p>
+    <h4 style="text-align:center">This is an h4 tag</h4>
+    <p>This website is just a demonstration and nothing special</p>
+    <h5 style="text-align:center">This is an h5 tag</h5>
+    <p>This website is just a demonstration and nothing special</p>
+    <h6 style="text-align:center">This is an h6 tag</h6>
+    <p>This website is just a demonstration and nothing special</p>
+    
+    <button id="btn" input type="button" value="Click me">Button</button>
+    <script>
+        const btn = document.getElementById('btn');
+
+let index = 0;
+
+const colors = ['salmon', 'green', 'blue', 'purple'];
+
+btn.addEventListener('click', function onClick() {
+  btn.style.backgroundColor = colors[index];
+  btn.style.color = 'white';
+
+  index = index >= colors.length - 1 ? 0 : index + 1;
+});
+    </script>
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>
